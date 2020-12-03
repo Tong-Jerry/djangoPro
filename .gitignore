@@ -1,0 +1,23 @@
+# 设置过滤文件
+
+# python 2进制文件
+*.pyc
+**/__pycache__/
+
+# 系统配置
+.python-version
+configs
+
+# 编辑器 & 系统环境
+.DataWarehouse
+.vscode
+.ide
+
+# 前端代码
+vue/workstation/node_modules
+vue/workstation/.env.local
+vue/workstation/.env.*.local
+
+
+# 设置不过滤文件
+!.gitignore
