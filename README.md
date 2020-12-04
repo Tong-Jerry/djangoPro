@@ -1,2 +1,2 @@
 # djangoPro
-django 笔记
+bolg-service
