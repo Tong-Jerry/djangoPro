@@ -1,2 +1,2 @@
 # djangoPro
-bolg-service
+blog-service
