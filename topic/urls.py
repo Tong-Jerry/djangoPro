@@ -6,11 +6,11 @@ urlpatterns = [
     path('create_topic', views.create_topic),
 
     # 编辑文章内容
-    path('update_topic/<int:topic_id>', views.update_topic),
+    path('update_topic', views.update_topic),
 
     # 删除文章
-    path('update_topic/<int:topic_id>', views.delect_topic),
+    path('delete_topic', views.delete_topic),
 
     # 查看文章
-    path('setect_topics', views.select_topics)
+    path('select_topics', views.select_topics)
 ]
